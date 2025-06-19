@@ -233,7 +233,16 @@
 		{
 			dependencies: ["2775946163E178D8"]
 			description: ["Press the iron into cast iron, the darker brother of steel."]
-			icon: "tfmg:cast_iron_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfmg:cast_iron_ingot"
+			}
 			id: "2A2AEE76BAB22ADD"
 			subtitle: "Contraption 49-1"
 			tasks: [
@@ -255,7 +264,16 @@
 			dependencies: ["51F030004DBA106F"]
 			description: ["Your usual iron generator goes here."]
 			hide_until_deps_complete: true
-			icon: "minecraft:iron_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "minecraft:iron_ingot"
+			}
 			id: "2775946163E178D8"
 			tasks: [
 				{

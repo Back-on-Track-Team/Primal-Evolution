@@ -62,7 +62,16 @@
 				""
 				"Brass will not only be useful for trains, but for the future precision machinery aswell, and drip casing."
 			]
-			icon: "create:brass_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "create:brass_ingot"
+			}
 			id: "20FD27DE45C29BB7"
 			subtitle: "Contraption 11"
 			tasks: [

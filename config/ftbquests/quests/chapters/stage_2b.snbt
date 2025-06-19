@@ -386,7 +386,16 @@
 			dependencies: ["141CF17F211E6268"]
 			description: ["A simple rotary farm should sufice, although the odds of you already having one are big."]
 			hide_until_deps_complete: true
-			icon: "minecraft:wheat"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: 6000L
+						traits: [ ]
+					}
+				}
+				id: "minecraft:wheat"
+			}
 			id: "4ED21477B5FD4FE7"
 			subtitle: "Contraption 25-1"
 			tasks: [

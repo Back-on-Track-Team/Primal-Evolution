@@ -1,0 +1,397 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "start_game"
+	group: ""
+	id: "7995A09F4F049E2B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "tfc:stone/axe_head/igneous_extrusive"
+			id: "4F92FBDC0E872DB3"
+			tasks: [
+				{
+					id: "18983B11B0E3673D"
+					item: "tfc:stone/axe_head/igneous_extrusive"
+					type: "item"
+				}
+				{
+					id: "516C442E676AC26B"
+					title: "Complete"
+					type: "checkmark"
+				}
+			]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"680BBF4E7799C79E"
+				"5F9E71798170AB8F"
+				"7190C4D5EF22E8DE"
+				"4F92FBDC0E872DB3"
+				"33B59A1D16EE5E7A"
+			]
+			icon: {
+				Count: 1
+				id: "tfc:stone/axe/igneous_extrusive"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "29C4EFC8C566A634"
+			rewards: [{
+				id: "1ACB910363058FF6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "358A7B80282111DC"
+					item: {
+						Count: 1
+						id: "tfc:stone/axe/igneous_extrusive"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F7138E9CAA0F8CC"
+					item: {
+						Count: 1
+						id: "tfc:stone/hammer/igneous_extrusive"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25E0705914BBEABC"
+					item: {
+						Count: 1
+						id: "tfc:stone/hoe/igneous_extrusive"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "244050A9FF6118AE"
+					item: {
+						Count: 1
+						id: "tfc:stone/knife/igneous_extrusive"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77D04DE97BCD1402"
+					item: {
+						Count: 1
+						id: "tfc:stone/shovel/igneous_extrusive"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FFB8522E61C9F66"
+					title: "Complete"
+					type: "checkmark"
+				}
+			]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			icon: "tfc:stone/hammer_head/igneous_extrusive"
+			id: "680BBF4E7799C79E"
+			tasks: [
+				{
+					id: "4E701B8AE5BEAA34"
+					item: "tfc:stone/hammer_head/igneous_extrusive"
+					type: "item"
+				}
+				{
+					id: "17917C3A41B4BEC3"
+					title: "Complete"
+					type: "checkmark"
+				}
+			]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			icon: "tfc:stone/shovel_head/metamorphic"
+			id: "33B59A1D16EE5E7A"
+			tasks: [
+				{
+					id: "48ECC27383461CCE"
+					item: "tfc:stone/shovel_head/metamorphic"
+					type: "item"
+				}
+				{
+					id: "0C734E9782DA4FC9"
+					title: "Complete"
+					type: "checkmark"
+				}
+			]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			icon: "tfc:stone/hoe_head/igneous_extrusive"
+			id: "7190C4D5EF22E8DE"
+			tasks: [
+				{
+					id: "2AA6DD8BB52BC2E5"
+					item: "tfc:stone/hoe_head/igneous_extrusive"
+					type: "item"
+				}
+				{
+					id: "74F44F9EE069BE22"
+					title: "Complete"
+					type: "checkmark"
+				}
+			]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			icon: "tfc:stone/knife_head/igneous_extrusive"
+			id: "5F9E71798170AB8F"
+			tasks: [
+				{
+					id: "382C2B33A1A1AD67"
+					item: "tfc:stone/knife_head/igneous_extrusive"
+					type: "item"
+				}
+				{
+					id: "03B445E0D60A08AA"
+					title: "Complete"
+					type: "checkmark"
+				}
+			]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"You will need a &6&lfirepit&r&f to start your first night. It is used to cook your food and to provide light on a cold night. I will give you the basics of the fire pit now, but I will teach you how to make one if you need several. It is very simple. Pay attention."
+				""
+				"To make a &6&lfirepit&r&f, you need to drop the following materials on the ground:"
+				""
+				"1x - &6&lany log&r&f"
+				"3x - &6&lstraw&r&f"
+				"3x - &6&lany twig&r&f"
+				""
+				"After dropping the materials on the ground, preferably to drop them all on the same block, then use a firestarter on top of these materials on the ground, and after a few seconds your &6&lfirepit&r&f will be ready!"
+			]
+			icon: "tfc:firepit"
+			id: "04512A8C17E3A169"
+			rewards: [{
+				id: "56DE7B56ADF57B82"
+				item: "tfc:firepit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 3L
+					id: "1317C7C68014F2DC"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:rods/wooden"
+						}
+					}
+					title: "Any #forge:rods/wooden"
+					type: "item"
+				}
+				{
+					id: "07A52336BA82F872"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:firepit_logs"
+						}
+					}
+					title: "Any #tfc:firepit_logs"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "34FB2090C31DBE36"
+					item: "tfc:straw"
+					type: "item"
+				}
+				{
+					id: "66D9928ABBEAA435"
+					title: "Complete"
+					type: "checkmark"
+				}
+			]
+			title: "&5I Need to Warm Up"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "31B11B7F98AC8D60"
+			rewards: [{
+				id: "5F754AFBF683D4AD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "00BF66B021EF2BFE"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:twigs"
+						}
+					}
+					title: "Any #tfc:twigs"
+					type: "item"
+				}
+				{
+					id: "367DC1748AC0D878"
+					title: "Complete"
+					type: "checkmark"
+				}
+			]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			id: "435655C593CFFF81"
+			tasks: [
+				{
+					count: 8L
+					id: "051F823B04663AB7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:firepit_logs"
+						}
+					}
+					title: "Any #tfc:firepit_logs"
+					type: "item"
+				}
+				{
+					id: "3185C010BCFEB5C6"
+					title: "Complete"
+					type: "checkmark"
+				}
+			]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			id: "44649DD82813C44B"
+			tasks: [
+				{
+					count: 8L
+					id: "6E0F8D5718509B17"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "rnr:loose_rock_items"
+						}
+					}
+					title: "Any #rnr:loose_rock_items"
+					type: "item"
+				}
+				{
+					id: "450ACCC7D38BD919"
+					title: "Complete"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"It's very simple once you understand the fauna and flora of the world, and this also applies to the next resources you're looking for. Nothing in Terrafirmacraft is without reason, everything is there to represent something. The way to obtain &l&eclay&r&r also has its characteristics."
+				""
+				"To obtain &l&eclay&r&r, you must look for a plant called &6&lAthyrium Fern&r&r. It is a pink plant with green tips and its foliage has 6 branches. It looks very similar to a star or a snowflake. Whenever you find it, you can be sure that there is &e&lclay&r&r there."
+			]
+			icon: "minecraft:clay_ball"
+			id: "5A3A7D2609EFA422"
+			tasks: [
+				{
+					count: 8L
+					id: "0B9A6146FBB41F71"
+					item: { Count: 8, id: "minecraft:clay_ball" }
+					type: "item"
+				}
+				{
+					id: "080165D3306644A8"
+					title: "Complete"
+					type: "checkmark"
+				}
+			]
+			title: "How do I get clay ball?"
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:ceramic/unfired_large_vessel"
+			}
+			id: "22E332752DE0A68F"
+			tasks: [
+				{
+					count: 2L
+					id: "1D5007FD51A72B72"
+					item: {
+						Count: 2
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:ceramic/unfired_large_vessel"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "429CCF32B90DBAE1"
+					item: { Count: 2, id: "tfc:ceramic/large_vessel" }
+					type: "item"
+				}
+				{
+					id: "093F49E51B2FD477"
+					title: "Complete"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.5d
+		}
+	]
+	title: "start game"
+}

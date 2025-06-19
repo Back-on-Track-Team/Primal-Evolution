@@ -19,7 +19,7 @@
 		x: 0.0d
 		y: -3.5d
 	}]
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -100,7 +100,16 @@
 				"49E19D125A9BAE9D"
 			]
 			dependency_requirement: "one_completed"
-			icon: "minecraft:iron_nugget"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "minecraft:iron_nugget"
+			}
 			id: "21803FA20BA88A59"
 			tasks: [{
 				id: "010949E225598A79"
@@ -163,7 +172,16 @@
 		}
 		{
 			dependencies: ["70BBDAF3644B10ED"]
-			icon: "minecraft:iron_nugget"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "minecraft:iron_nugget"
+			}
 			id: "5C045FD5A602F0A6"
 			tasks: [{
 				id: "25531A0061705B3E"
@@ -187,7 +205,16 @@
 		}
 		{
 			dependencies: ["7D39082B4300E6F4"]
-			icon: "minecraft:iron_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "minecraft:iron_ingot"
+			}
 			id: "75DE779C3E9E8E81"
 			tasks: [{
 				id: "01D44BB1C3FE63BF"
@@ -200,7 +227,16 @@
 		{
 			dependencies: ["7C6435C9ACEFA985"]
 			hide_details_until_startable: false
-			icon: "minecraft:iron_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "minecraft:iron_ingot"
+			}
 			id: "085F65B18F65DCCE"
 			tasks: [{
 				id: "29AC59845B8D4598"
@@ -236,7 +272,16 @@
 		}
 		{
 			dependencies: ["75CCE64B8BFBCF69"]
-			icon: "minecraft:iron_nugget"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "minecraft:iron_nugget"
+			}
 			id: "28B72E3D9D4529F3"
 			tasks: [{
 				id: "2202035693047218"

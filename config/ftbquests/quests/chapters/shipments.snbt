@@ -123,7 +123,7 @@
 			y: 4.0d
 		}
 	]
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -300,7 +300,16 @@
 			can_repeat: true
 			dependencies: ["64F3352725385210"]
 			disable_toast: true
-			icon: "minecraft:clay"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "minecraft:clay"
+			}
 			id: "3F5AEEC293558937"
 			rewards: [
 				{
@@ -1128,7 +1137,16 @@
 			can_repeat: true
 			dependencies: ["64F3352725385210"]
 			disable_toast: true
-			icon: "minecraft:iron_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "minecraft:iron_ingot"
+			}
 			id: "274B312EA0608D7D"
 			rewards: [
 				{
@@ -1164,7 +1182,16 @@
 			can_repeat: true
 			dependencies: ["64F3352725385210"]
 			disable_toast: true
-			icon: "create:zinc_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "create:zinc_ingot"
+			}
 			id: "3459D38C1DF7BA1D"
 			rewards: [
 				{
@@ -1200,7 +1227,16 @@
 			can_repeat: true
 			dependencies: ["64F3352725385210"]
 			disable_toast: true
-			icon: "minecraft:copper_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "minecraft:copper_ingot"
+			}
 			id: "6206C032EC0EB78A"
 			rewards: [
 				{
@@ -1236,7 +1272,16 @@
 			can_repeat: true
 			dependencies: ["64F3352725385210"]
 			disable_toast: true
-			icon: "thermal:nickel_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "thermal:nickel_ingot"
+			}
 			id: "18390BC53E1670A4"
 			rewards: [
 				{
@@ -1272,7 +1317,16 @@
 			can_repeat: true
 			dependencies: ["64F3352725385210"]
 			disable_toast: true
-			icon: "thermal:lead_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "thermal:lead_ingot"
+			}
 			id: "79E7F382504D965F"
 			rewards: [
 				{
@@ -1308,7 +1362,16 @@
 			can_repeat: true
 			dependencies: ["64F3352725385210"]
 			disable_toast: true
-			icon: "minecraft:gold_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "minecraft:gold_ingot"
+			}
 			id: "29DD05E3651498A7"
 			rewards: [
 				{
@@ -1380,7 +1443,16 @@
 			can_repeat: true
 			dependencies: ["64F3352725385210"]
 			disable_toast: true
-			icon: "alloyed:steel_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "alloyed:steel_ingot"
+			}
 			id: "01FC95C429870317"
 			rewards: [
 				{
@@ -1416,7 +1488,16 @@
 			can_repeat: true
 			dependencies: ["64F3352725385210"]
 			disable_toast: true
-			icon: "create:brass_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "create:brass_ingot"
+			}
 			id: "191B5330E44E3DFA"
 			rewards: [
 				{
@@ -2103,7 +2184,16 @@
 			can_repeat: true
 			dependencies: ["64F3352725385210"]
 			disable_toast: true
-			icon: "farmersdelight:rice_bag"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: 6000L
+						traits: [ ]
+					}
+				}
+				id: "farmersdelight:rice_bag"
+			}
 			id: "72F722A73353093E"
 			optional: true
 			rewards: [
@@ -2572,7 +2662,16 @@
 			can_repeat: true
 			dependencies: ["64F3352725385210"]
 			disable_toast: true
-			icon: "minecraft:sweet_berries"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: 6000L
+						traits: [ ]
+					}
+				}
+				id: "minecraft:sweet_berries"
+			}
 			id: "5DF1FFE7535BEE4B"
 			rewards: [
 				{
@@ -3508,7 +3607,16 @@
 			can_repeat: true
 			dependencies: ["64F3352725385210"]
 			disable_toast: true
-			icon: "minecraft:rotten_flesh"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: -9223372036854775808L
+						traits: [ ]
+					}
+				}
+				id: "minecraft:rotten_flesh"
+			}
 			id: "63DF805C4CA2FA54"
 			rewards: [
 				{

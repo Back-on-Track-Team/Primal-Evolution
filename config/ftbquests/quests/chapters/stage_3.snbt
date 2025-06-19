@@ -50,7 +50,16 @@
 				""
 				"Iron will need to be mixed with coke to create steel, and steel will need to be mixed with netherite scrap so that it will resist the extreme heat from rocket engines"
 			]
-			icon: "alloyed:steel_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "alloyed:steel_ingot"
+			}
 			id: "3159F92426161A19"
 			tasks: [
 				{
@@ -332,7 +341,16 @@
 		{
 			dependencies: ["218397419487B197"]
 			description: ["Does gravel even contain iron? It might be better to just accept it..."]
-			icon: "minecraft:iron_nugget"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "minecraft:iron_nugget"
+			}
 			id: "65605AC13DF2D359"
 			subtitle: "Contraption 33-3"
 			tasks: [

@@ -188,13 +188,7 @@ let mystery_leaves_but_no_gapples =
 LootJS.modifiers((event) => {
     //#obrigadoboatpaking
 
-    const customLoot = (block, loot) => event.addBlockLootModifier(block).not((not) => {not.matchLoot(block)}).addLoot(loot);
-
-    customLoot('buddingcrystals:small_budding_skystone_bud', '8x ae2:sky_stone_block')
-    customLoot('buddingcrystals:medium_budding_skystone_bud', '8x ae2:sky_stone_block')
-    customLoot('buddingcrystals:large_budding_skystone_bud', '8x ae2:sky_stone_block')
-
-    customLoot('createbigcannons:steel_cannon_chamber', '64x kubejs:steel_ring')
+    //const customLoot = (block, loot) => event.addBlockLootModifier(block).not((not) => {not.matchLoot(block)}).addLoot(loot);
 
     // event.addBlockLootModifier('tfmg:lead_ore').addLoot('thermal:raw_lead')
     // event.addBlockLootModifier('tfmg:deepslate_lead_ore').addLoot('thermal:raw_lead')

@@ -570,7 +570,16 @@
 			dependencies: ["6C3258881A44FA46"]
 			description: ["After getting beaten a bit by a press, this cast iron ingot can be electrified and turn into a full blown magnet."]
 			hide_dependency_lines: true
-			icon: "tfmg:cast_iron_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfmg:cast_iron_ingot"
+			}
 			id: "1B692F49BB495B9A"
 			subtitle: "Contraption 56-1"
 			tasks: [
@@ -643,7 +652,16 @@
 		{
 			dependencies: ["49C384FD09135F64"]
 			description: ["The component insertion component composed of copper"]
-			icon: "createaddition:copper_rod"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "createaddition:copper_rod"
+			}
 			id: "370E2874A398E456"
 			subtitle: "Contraption 57-2"
 			tasks: [
@@ -668,7 +686,16 @@
 				"370E2874A398E456"
 			]
 			description: ["Flex copper to flex on the electromagnetic fields."]
-			icon: "createaddition:copper_wire"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "createaddition:copper_wire"
+			}
 			id: "2B16EE336CC23F70"
 			subtitle: "Contraption 57-3"
 			tasks: [
@@ -964,7 +991,16 @@
 		{
 			dependencies: ["7B0B8F7CA8DD7432"]
 			description: ["Seems our friend Clayton got dense, now he can hold the drip."]
-			icon: "minecraft:clay"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "minecraft:clay"
+			}
 			id: "2B75DFDCDF51EEE8"
 			subtitle: "Contraption 52-1"
 			tasks: [
@@ -1051,7 +1087,16 @@
 		{
 			dependencies: ["5AF91ED1BD145E5F"]
 			description: ["The best material for our conductive needs at the moment."]
-			icon: "minecraft:copper_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "minecraft:copper_ingot"
+			}
 			id: "4675B02BF0D4C34D"
 			subtitle: "Contraption 52-4"
 			tasks: [
@@ -1223,7 +1268,16 @@
 		}
 		{
 			dependencies: ["19951A07520C3E63"]
-			icon: "minecraft:iron_nugget"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "minecraft:iron_nugget"
+			}
 			id: "665344D0E292B115"
 			subtitle: "Contraption 51-3"
 			tasks: [

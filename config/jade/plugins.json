@@ -51,6 +51,39 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "immersiveengineering": {
+    "multiblock_icon": true
+  },
+  "jade": {
+    "coordinates.rel": false,
+    "distance": false,
+    "block_face": false,
+    "coordinates": false,
+    "registry_name": "OFF",
+    "mod_name": true
+  },
+  "alekiships": {
+    "furnace": true,
+    "jukebox": true,
+    "brewing_stand": true,
+    "block": true,
+    "note_block": true
+  },
+  "balm": {
+    "jade": true
+  },
+  "ae2": {
+    "part_icon": true,
+    "charger": true,
+    "debug": true,
+    "part_tooltip": true,
+    "grid_node_state": true,
+    "pattern_provider": true,
+    "part_mod_name": true,
+    "power_storage": true,
+    "crafting_monitor": true,
+    "part_name": true
+  },
   "tfc": {
     "bloomery": true,
     "nest_box": true,
@@ -105,6 +138,10 @@
     "wet_concrete": true,
     "ingot_pile": true
   },
+  "firmaciv": {
+    "tfc_chest": true,
+    "barrel": true
+  },
   "shetiphiancore": {
     "hud.rgb16": true,
     "hud": true,
@@ -112,9 +149,6 @@
   },
   "pipez": {
     "pipe": true
-  },
-  "immersiveengineering": {
-    "multiblock_icon": true
   },
   "delightful": {
     "crop_progress": true,
@@ -124,33 +158,10 @@
   "supplementaries": {
     "hat_stand": true
   },
-  "jade": {
-    "coordinates.rel": false,
-    "distance": false,
-    "block_face": false,
-    "coordinates": false,
-    "registry_name": "OFF",
-    "mod_name": true
-  },
   "waystones": {
     "waystone": true
   },
   "corpse": {
     "corpse": true
-  },
-  "balm": {
-    "jade": true
-  },
-  "ae2": {
-    "part_icon": true,
-    "charger": true,
-    "debug": true,
-    "part_tooltip": true,
-    "grid_node_state": true,
-    "pattern_provider": true,
-    "part_mod_name": true,
-    "power_storage": true,
-    "crafting_monitor": true,
-    "part_name": true
   }
 }

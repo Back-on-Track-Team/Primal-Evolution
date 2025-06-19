@@ -7,18 +7,14 @@ let TE = (id, x) => MOD("thermal", id, x)
 let AP = (id, x) => MOD("architects_palette", id, x)
 let LV = (id, x) => MOD("libvulpes", id, x)
 let CR = (id, x) => MOD("create", id, x)
-//let TC = (id, x) => MOD("tconstruct", id, x)
 let MC = (id, x) => MOD("minecraft", id, x)
 let KJ = (id, x) => MOD("kubejs", id, x)
 let EG = (id, x) => MOD("endergetic", id, x)
 let FD = (id, x) => MOD("farmersdelight", id, x)
-//let BOP = (id, x) => MOD("biomesoplenty", id, x)
 let PR_C = (id, x) => MOD("projectred-core", id, x)
-let RQ = (id, x) => MOD("xreliquary", id, x)
 let SD = (id, x) => MOD("storagedrawers", id, x)
 let SP = (id, x) => MOD("supplementaries", id, x)
 let F = (id, x) => MOD("forge", id, x)
-let AC = (id, x) => MOD("aquaculture", id, x)
 //
 
 
@@ -213,7 +209,6 @@ StartupEvents.registry('item', event => {
 		{ in: FD('stuffed_pumpkin', 16), out: S(9) },
 		{ in: FD('honey_glazed_ham', 16), out: S(7) },
 		{ in: FD('shepherds_pie', 16), out: S(7) },
-		{ in: AC('sushi', 16), out: S(3) },
 		{ in: CR('sweet_roll', 16), out: S(4) }
 	])
 
@@ -223,40 +218,6 @@ StartupEvents.registry('item', event => {
 	// 	{ in: MC('salmon', quota), out: S(1) },
 	// 	{ in: MC('pufferfish', quota), out: S(1) },
 	// 	{ in: MC('tropical_fish', quota), out: S(1) },
-	// 	{ in: AC('atlantic_herring', quota), out: S(3) },
-	// 	{ in: AC('synodontis', quota), out: S(3) },
-	// 	{ in: AC('bluegill', quota), out: S(3) },
-	// 	{ in: AC('perch', quota), out: S(3) },
-	// 	{ in: AC('tambaqui', quota), out: S(3) },
-	// 	{ in: AC('minnow', quota), out: S(4) },
-	// 	{ in: AC('blackfish', quota), out: S(4) },
-	// 	{ in: AC('pink_salmon', quota), out: S(5) },
-	// 	{ in: AC('brown_trout', quota), out: S(5) },
-	// 	{ in: AC('carp', quota), out: S(5) },
-	// 	{ in: AC('pollock', quota), out: S(5) },
-	// 	{ in: AC('smallmouth_bass', quota), out: S(5) },
-	// 	{ in: AC('boulti', quota), out: S(5) },
-	// 	{ in: AC('red_shrooma', quota), out: S(5) },
-	// 	{ in: AC('brown_shrooma', quota), out: S(5) },
-	// 	{ in: AC('gar', quota), out: S(7) },
-	// 	{ in: AC('rainbow_trout', quota), out: S(7) },
-	// 	{ in: AC('bayad', quota), out: S(7) },
-	// 	{ in: AC('piranha', quota), out: S(7) },
-	// 	{ in: AC('jellyfish', quota), out: S(7) },
-	// 	{ in: AC('red_grouper', quota), out: S(7) },
-	// 	{ in: AC('atlantic_cod', quota), out: S(7) },
-	// 	{ in: AC('muskellunge', quota), out: S(8) },
-	// 	{ in: AC('pacific_halibut', quota), out: S(8) },
-	// 	{ in: AC('atlantic_halibut', quota), out: S(8) },
-	// 	{ in: AC('catfish', quota), out: S(10) },
-	// 	{ in: AC('capitaine', quota), out: S(10) },
-	// 	{ in: AC('tuna', quota), out: S(10) },
-	// 	{ in: AC('arapaima', quota), out: S(10) },
-	// 	{ in: AC('arrau_turtle', quota), out: S(10) },
-	// 	{ in: AC('box_turtle', quota), out: S(10) },
-	// 	{ in: AC('starshell_turtle', quota), out: S(10) },
-	// 	{ in: AC('goldfish', quota), out: S(10) },
-	// 	{ in: AC('neptunium_ingot', 5), out: S(16) }
 	// ])
 
 	profession("Smithing", 0xFFC93C, 0xFF7A00, [

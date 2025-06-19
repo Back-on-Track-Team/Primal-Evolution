@@ -349,7 +349,16 @@
 		{
 			dependencies: ["22750FB1C2E653AF"]
 			description: ["Shine a &2green&r laser at gold to obtain silver from the transmution, a material not naturally found in our world, ultimately reversing the chrysopoeia."]
-			icon: "thermal:silver_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "thermal:silver_ingot"
+			}
 			id: "34F1D64A281DC259"
 			tasks: [
 				{
@@ -371,7 +380,16 @@
 			dependencies: ["3F4D1B3C28BF5E14"]
 			description: ["At this point you should be a professional gold digger, now we have to turn the alchemist's dream upside down."]
 			hide_dependency_lines: true
-			icon: "minecraft:gold_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "minecraft:gold_ingot"
+			}
 			id: "22750FB1C2E653AF"
 			tasks: [
 				{

@@ -224,7 +224,16 @@
 		{
 			dependencies: ["1139F2E4E6FCFE29"]
 			description: ["Washing the Gravel with an &6Encased Fan&r leaves you with Iron Nuggets and Flint."]
-			icon: "minecraft:iron_nugget"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "minecraft:iron_nugget"
+			}
 			id: "53735DC4231AB566"
 			subtitle: "Contraption 18-3"
 			tasks: [
@@ -279,7 +288,16 @@
 				"For less hassles with manual effort, it is recommended to set up Ingot-to-Ingot semi-automation for creating Alloys using the setup above."
 			]
 			hide_dependency_lines: false
-			icon: "create:brass_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "create:brass_ingot"
+			}
 			id: "174E3A810535CAAC"
 			shape: "diamond"
 			subtitle: "Contraption 10"
