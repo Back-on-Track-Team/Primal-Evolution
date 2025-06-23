@@ -4,7 +4,7 @@
 	filename: "start_game"
 	group: ""
 	id: "7995A09F4F049E2B"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

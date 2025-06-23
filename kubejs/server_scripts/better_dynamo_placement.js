@@ -14,60 +14,6 @@ function opposite(face) {
 	return 'down'
 }
 
-// onEvent('entity.spawned', event => {
-// 	let entity = event.getEntity()
-// 	if (entity.getType() == "ae2:singularity") {
-// 		let item = entity.getItem()
-// 		if (item == null)
-// 			return
-// 		if (!item.getId().contains("quantum"))
-// 			return
-// 		entity.setMotionX(0)
-// 		entity.setMotionY(0)
-// 		entity.setMotionZ(0)
-// 		return
-// 	}
-// 	if (entity.getType() != "minecraft:item")
-// 		return
-// 	let item = entity.getItem()
-// 	if (item == null)
-// 		return
-// 	if (!item.getId().startsWith("tconstruct:"))
-// 		return
-// 	if (!item.getId().endsWith("slime_fern"))
-// 		return
-// 	let block = entity.getBlock()
-// 	if (block.getId() != "occultism:spirit_fire" && block.getDown().getId() != "occultism:spirit_fire")
-// 		return
-// 	entity.setMotionX(entity.getMotionX() / 16)
-// 	entity.setMotionY(0.35)
-// 	entity.setMotionZ(entity.getMotionZ() / 16)
-// 	entity.setX(Math.floor(entity.getX()) + .5)
-// 	entity.setY(Math.floor(entity.getY()) - .5)
-// 	entity.setZ(Math.floor(entity.getZ()) + .5)
-// })
-
-// onEvent('server.datapack.first', event => {
-
-// 	// "Fixes" Extended Caves wiping its config contents
-// 	let extcaves_conf = java("com.polyvalord.extcaves.config.Config")
-// 	let suppl_conf = java("net.mehvahdjukaar.supplementaries.configs.ServerConfigs")
-// 	let no_thankyou = suppl_conf.block.CAGE_ALL_MOBS
-
-// 	extcaves_conf.gen_block_lavastone = no_thankyou
-// 	extcaves_conf.gen_block_oldstone = no_thankyou
-// 	extcaves_conf.gen_vines = no_thankyou
-// 	extcaves_conf.gen_block_sedimentstone = no_thankyou
-// 	extcaves_conf.gen_block_dirtstone = no_thankyou
-// 	extcaves_conf.gen_block_marlstone = no_thankyou
-// 	extcaves_conf.gen_block_packed_ice = no_thankyou
-// 	extcaves_conf.gen_mushrooms = no_thankyou
-// 	extcaves_conf.gen_mosses = no_thankyou
-// 	extcaves_conf.gen_rock_flints = no_thankyou
-
-// })
-
-
 BlockEvents.rightClicked(event => {
 
 	// Auto-configure placed energy "pipez" to extract when near a dynamo

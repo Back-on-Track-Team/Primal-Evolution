@@ -66,16 +66,6 @@ ServerEvents.tags('item', event => {
 		event.get(F('glazed_terracotta')).add(MC(`${element}_glazed_terracotta`))
 	});
 
-	global.trades.forEach(element => {
-		event.get('forge:trade_cards').add(`kubejs:trade_card_${element}`)
-		event.get('thermal:crafting/dies').add(`kubejs:trade_card_${element}`)
-	});
-	
-	global.professions.forEach(element => {
-		event.get('forge:profession_cards').add(`kubejs:profession_card_${element}`)
-		event.get('thermal:crafting/dies').add(`kubejs:profession_card_${element}`)
-	});
-
 	event.get("forge:circuit_press")
 		.add(AE2("name_press"))
 		.add(AE2("silicon_press"))
